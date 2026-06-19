@@ -1,7 +1,7 @@
-package com.harsh.slidingrootnavigation.transform
+package com.harsh.navigation.transform
 
 import android.view.View
-import com.harsh.slidingrootnavigation.util.SideNavUtils
+import com.harsh.navigation.util.SideNavUtils
 
 class ScaleTransformation(private val endScale: Float) : RootTransformation {
     override fun transform(dragProgress: Float, rootView: View?) {

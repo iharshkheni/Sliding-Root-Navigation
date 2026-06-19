@@ -1,4 +1,4 @@
-package com.harsh.slidingrootnavigation
+package com.harsh.navigation
 
 interface SlidingRootNav {
     fun isMenuClosed(): Boolean

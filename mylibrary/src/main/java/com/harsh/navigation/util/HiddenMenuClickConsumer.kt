@@ -1,10 +1,10 @@
-package com.harsh.slidingrootnavigation.util
+package com.harsh.navigation.util
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.view.MotionEvent
 import android.view.View
-import com.harsh.slidingrootnavigation.SlidingRootNavLayout
+import com.harsh.navigation.SlidingRootNavLayout
 
 class HiddenMenuClickConsumer(context: Context) : View(context) {
     private var menuHost: SlidingRootNavLayout? = null

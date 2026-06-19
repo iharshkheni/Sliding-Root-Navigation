@@ -23,5 +23,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Sliding Root Navigation"
+rootProject.name = "sliding-root-navigation"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
+include(":mylibrary")

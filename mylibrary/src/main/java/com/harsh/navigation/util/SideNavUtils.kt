@@ -1,4 +1,4 @@
-package com.harsh.slidingrootnavigation.util
+package com.harsh.navigation.util
 
 abstract class SideNavUtils {
     companion object {

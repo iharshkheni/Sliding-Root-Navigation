@@ -1,4 +1,4 @@
-package com.harsh.slidingrootnavigation
+package com.harsh.navigation
 
 import androidx.customview.widget.ViewDragHelper
 import kotlin.math.abs

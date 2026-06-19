@@ -1,4 +1,4 @@
-package com.harsh.slidingrootnavigation.transform
+package com.harsh.navigation.transform
 
 import android.view.View
 

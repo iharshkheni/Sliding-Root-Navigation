@@ -1,11 +1,12 @@
-package com.harsh.slidingrootnavigation.util
+package com.harsh.navigation.util
 
 import android.view.View
 import androidx.drawerlayout.widget.DrawerLayout
-import com.harsh.slidingrootnavigation.callback.DragListener
-import com.harsh.slidingrootnavigation.callback.DragStateListener
+import com.harsh.navigation.callback.DragListener
+import com.harsh.navigation.callback.DragStateListener
 
-class DrawerListenerAdapter(private val adaptee: DrawerLayout.DrawerListener, private val drawer: View): DragListener, DragStateListener {
+class DrawerListenerAdapter(private val adaptee: DrawerLayout.DrawerListener, private val drawer: View): DragListener,
+    DragStateListener {
 
     override fun onDrag(progress: Float) {
         adaptee.onDrawerSlide(drawer, progress)

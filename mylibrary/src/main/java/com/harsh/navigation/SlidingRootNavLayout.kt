@@ -1,4 +1,4 @@
-package com.harsh.slidingrootnavigation
+package com.harsh.navigation
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -12,9 +12,9 @@ import android.view.ViewConfiguration
 import android.widget.FrameLayout
 import androidx.core.view.ViewCompat
 import androidx.customview.widget.ViewDragHelper
-import com.harsh.slidingrootnavigation.callback.DragListener
-import com.harsh.slidingrootnavigation.callback.DragStateListener
-import com.harsh.slidingrootnavigation.transform.RootTransformation
+import com.harsh.navigation.callback.DragListener
+import com.harsh.navigation.callback.DragStateListener
+import com.harsh.navigation.transform.RootTransformation
 import kotlin.math.abs
 
 class SlidingRootNavLayout @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : FrameLayout(context, attrs, defStyleAttr), SlidingRootNav {

@@ -15,10 +15,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.widget.NestedScrollView
 import com.google.android.material.appbar.MaterialToolbar
+import com.harsh.navigation.SlidingRootNav
+import com.harsh.navigation.SlidingRootNavBuilder
+import com.harsh.navigation.callback.DragStateListener
 import com.harsh.slidingrootnavigation.R
-import com.harsh.slidingrootnavigation.SlidingRootNav
-import com.harsh.slidingrootnavigation.SlidingRootNavBuilder
-import com.harsh.slidingrootnavigation.callback.DragStateListener
 
 class NavigationActivity : AppCompatActivity() {
 

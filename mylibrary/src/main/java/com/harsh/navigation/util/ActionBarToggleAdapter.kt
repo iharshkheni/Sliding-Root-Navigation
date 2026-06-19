@@ -1,8 +1,8 @@
-package com.harsh.slidingrootnavigation.util
+package com.harsh.navigation.util
 
 import android.content.Context
 import androidx.drawerlayout.widget.DrawerLayout
-import com.harsh.slidingrootnavigation.SlidingRootNavLayout
+import com.harsh.navigation.SlidingRootNavLayout
 
 class ActionBarToggleAdapter(context: Context) : DrawerLayout(context) {
     private var adaptee: SlidingRootNavLayout? = null

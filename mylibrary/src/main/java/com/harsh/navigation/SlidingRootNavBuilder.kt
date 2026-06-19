@@ -1,4 +1,4 @@
-package com.harsh.slidingrootnavigation
+package com.harsh.navigation
 
 import android.app.Activity
 import android.os.Bundle
@@ -10,16 +10,16 @@ import androidx.annotation.IntRange
 import androidx.annotation.LayoutRes
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
-import com.harsh.slidingrootnavigation.callback.DragListener
-import com.harsh.slidingrootnavigation.callback.DragStateListener
-import com.harsh.slidingrootnavigation.transform.CompositeTransformation
-import com.harsh.slidingrootnavigation.transform.ElevationTransformation
-import com.harsh.slidingrootnavigation.transform.RootTransformation
-import com.harsh.slidingrootnavigation.transform.ScaleTransformation
-import com.harsh.slidingrootnavigation.transform.YTranslationTransformation
-import com.harsh.slidingrootnavigation.util.ActionBarToggleAdapter
-import com.harsh.slidingrootnavigation.util.DrawerListenerAdapter
-import com.harsh.slidingrootnavigation.util.HiddenMenuClickConsumer
+import com.harsh.navigation.callback.DragListener
+import com.harsh.navigation.callback.DragStateListener
+import com.harsh.navigation.transform.CompositeTransformation
+import com.harsh.navigation.transform.ElevationTransformation
+import com.harsh.navigation.transform.RootTransformation
+import com.harsh.navigation.transform.ScaleTransformation
+import com.harsh.navigation.transform.YTranslationTransformation
+import com.harsh.navigation.util.ActionBarToggleAdapter
+import com.harsh.navigation.util.DrawerListenerAdapter
+import com.harsh.navigation.util.HiddenMenuClickConsumer
 
 class SlidingRootNavBuilder(private val activity: Activity) {
 

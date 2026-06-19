@@ -1,4 +1,4 @@
-package com.harsh.slidingrootnavigation.callback
+package com.harsh.navigation.callback
 
 interface DragStateListener {
     fun onDragStart()
